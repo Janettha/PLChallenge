@@ -20,7 +20,10 @@ class MainActivity : ComponentActivity() {
         setContent {
             PLChallengeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    BatteryIndicatorUI2(modifier = Modifier.padding(innerPadding))
+                    BatteryIndicatorUI2(
+                        modifier = Modifier
+                            .padding(innerPadding)
+                    )
                 }
             }
         }

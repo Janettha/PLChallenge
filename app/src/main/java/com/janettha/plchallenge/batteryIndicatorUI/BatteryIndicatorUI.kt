@@ -90,7 +90,7 @@ fun BatteryIndicatorUI2(
     // endregion
 
     Row(modifier = modifier
-        .height(68.dp)
+        .fillMaxSize()
         .fillMaxWidth()
         .background(Color(IconsAndColors.colorBatteryBackground))
         .padding(vertical = 16.dp, horizontal = 30.dp),
@@ -98,9 +98,9 @@ fun BatteryIndicatorUI2(
     ) {
         // region Heart
         Box (modifier = Modifier
-            .fillMaxSize()
             .weight(.2f)
-            .padding(end = 16.dp)
+            .width(48.dp)
+            .height(48.dp)
             .background(
                 Color.Transparent,
                 RoundedCornerShape(6.dp)
@@ -129,9 +129,10 @@ fun BatteryIndicatorUI2(
         }
         // endregion
         // region Battery
-        Box(modifier = modifier
-            .weight(.8f)
-            .fillMaxSize()
+        Box(modifier = Modifier
+            .padding(start = 16.dp)
+            .width(200.dp)
+            .height(60.dp)
             .background(
                 Color(IconsAndColors.colorBatteryWhite),
                 RoundedCornerShape(
@@ -347,6 +348,7 @@ fun BatteryIndicatorUI2(
         Box(modifier = Modifier
             .weight(.05f)
             .fillMaxHeight()
+            .padding(end = 16.dp)
         ){
             Box(modifier = Modifier
                 .width(5.dp)
