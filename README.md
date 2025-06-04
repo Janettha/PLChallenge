@@ -32,5 +32,7 @@ You blink. Well… It’s definitely not the weirdest request you’ve seen. Tim
   * 80% - ![#19D181](https://placehold.co/15x15/19D181/19D181.png) Green - #19D181
 
 
-https://github.com/user-attachments/assets/fa9538a5-8dab-48bd-a0ee-6913fd7b4185
+https://github.com/user-attachments/assets/bf3d03f1-0bf9-43d9-a1ce-e4390901af2d
+
+
 
