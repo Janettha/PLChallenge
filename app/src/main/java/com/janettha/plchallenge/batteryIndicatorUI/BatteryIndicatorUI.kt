@@ -107,14 +107,14 @@ fun BatteryIndicatorUI2(
             contentAlignment = Alignment.Center
         ){
             when(batteryStatus) {
-                1 -> {
+                1, 2 -> {
                     Icon(
                         imageVector = ImageVector.vectorResource(R.drawable.ic_battery_heart_inactive),
                         tint = Color(IconsAndColors.colorBatteryInactive),
                         contentDescription = null
                     )
                 }
-                0, 2 -> {
+                0 -> {
                     Icon(
                         painter = painterResource(id = IconsAndColors.icons[currentIconIndex]),
                         contentDescription = null,
